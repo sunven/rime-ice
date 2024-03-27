@@ -1,0 +1,3 @@
+[submodule "rime-ice-custom"]
+	path = rime-ice-custom
+	url = git@github.com:sunven/rime-ice-custom.git
