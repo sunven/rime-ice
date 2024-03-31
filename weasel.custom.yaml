@@ -1,19 +1,21 @@
 patch:
   style/horizontal: true
-  style/color_scheme: cool_breeze
+  style/color_scheme: wechat
   preset_color_schemes:
-    cool_breeze:
-      name: 清風／Cool Breeze
-      author: skoj <skoj@qq.com>
-      text_color: 255
-      back_color: 16776187
-      border_color: 16755370
-      label_color: 5616723
-      hilited_text_color: 206
-      hilited_back_color: 16776187
-      candidate_text_color: 37120
-      comment_text_color: 5616723
-      hilited_candidate_text_color: 7274554
-      hilited_comment_text_color: 5616723
-      hilited_candidate_back_color: 16766636
-      hilited_label_color: 10438496
+    wechat:
+      name: "微信键盘 / WeChat-keyboard" # 配色取自微信键盘
+      horizontal: true
+      back_color: 0xFFFFFF
+      border_height: 0
+      border_width: 8
+      candidate_format: "%c %@ "
+      comment_text_color: 0x999999
+      corner_radius: 5
+      hilited_corner_radius: 5
+      font_face: PingFangSC
+      font_point: 16
+      hilited_candidate_back_color: 0x75B100
+      hilited_candidate_text_color: 0xFFFFFF
+      label_font_point: 12
+      text_color: 0x424242
+      inline_preedit: true
