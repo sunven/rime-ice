@@ -1,5 +1,8 @@
 patch:
   style/horizontal: true
+  style/layout/corner_radius: 0
+  style/layout/round_corner: 0
+  style/layout/border_width: 1
   style/color_scheme: wechat
   preset_color_schemes:
     wechat:
@@ -19,3 +22,39 @@ patch:
       label_font_point: 12
       text_color: 0x424242
       inline_preedit: true
+    ayaya:
+      name: "文文／Ayaya"
+      author: "Lufs X <i@isteed.cc>"
+      back_color: 0xF9F9F9
+      border_color: 0xE7E7E7
+      candidate_text_color: 0x121212
+      comment_text_color: 0x8E8E8E
+      hilited_candidate_back_color: 0xECE4FC
+      hilited_candidate_label_color: 0xB18FF4
+      hilited_candidate_text_color: 0x7A40EC
+      hilited_label_color: 0xA483EC
+      hilited_mark_color: 0x7A40EC
+      label_color: 0x888785
+      text_color: 0x8100EB
+    ayaya_dark:
+      name: "文文／Ayaya／深色"
+      author: "Lufs X <i@isteed.cc>"
+      back_color: 0x000000
+      border_color: 0x000000
+      candidate_text_color: 0xD2D2D2
+      comment_text_color: 0x8E8E8E
+      hilited_candidate_back_color: 0x2C1E3C
+      hilited_candidate_label_color: 0x7036E2
+      hilited_candidate_text_color: 0x7036E2
+      hilited_comment_text_color: 0x8E8E8E
+      hilited_label_color: 0xA483EC
+      hilited_mark_color: 0x7A40EC
+      label_color: 0x888785
+    apathy:
+      name: 冷漠／Apathy
+      author: LIANG Hai
+      back_color: 0xFFFFFF
+      text_color: 0x424242
+      hilited_candidate_text_color: 0xEE6E00
+      hilited_candidate_back_color: 0xFFF0E4
+      comment_text_color: 0x999999
