@@ -123,7 +123,7 @@ func Sort(dictPath string, _type int) {
 			return false
 		})
 	} else {
-		sort.SliceStable(contents, func(i, j int) bool {
+		sort.Slice(contents, func(i, j int) bool {
 			if contents[i].code != contents[j].code {
 				return contents[i].code < contents[j].code
 			}
