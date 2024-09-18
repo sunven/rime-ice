@@ -1,23 +1,14 @@
-# Project exclude paths
-/venv/
-/cn_dicts_temp/
-/cn_dicts_dazhu/
-/cn_dicts_sancang/
-/cn_dicts_xh_cangjie/
-sancang.dict.yaml
 .DS_Store
-
 **/.idea/
 .vscode/
 dist/
-*.zip
 
 build/
 sync/
 *.userdb/
 installation.yaml
 user.yaml
-*.custom.yaml
+# *.custom.yaml
 !others/**/*.custom.yaml
 
 custom_phrase_double.txt
@@ -30,5 +21,3 @@ cn_dicts/temp.txt
 rime_console
 rime_deployer
 rime_patch
-
-*.zip

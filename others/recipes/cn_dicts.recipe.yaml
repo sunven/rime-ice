@@ -8,4 +8,3 @@ recipe:
 install_files: >-
   radical_pinyin.dict.yaml
   cn_dicts/*.*
-  cn_dicts_cell/*.*
